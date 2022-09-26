@@ -10,11 +10,7 @@ const Register = (props) => {
   const dispatch = useDispatch();
 
   const handleRegister = () => {
-    const params = {
-      email: email,
-      pwd: pwd,
-    };
-    dispatch(register(params)).then(() => {
+    dispatch(register({ email, pwd })).then(() => {
       // props.history.push("/dashboard");
       // window.location.reload();
     });

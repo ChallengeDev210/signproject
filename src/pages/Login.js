@@ -29,6 +29,30 @@ const Login = (props) => {
 
   return (
     <div className="div">
+      <table class="border-separate border border-slate-500 ...">
+        <thead>
+          <tr>
+            <th class="border border-slate-600 ...">State</th>
+            <th class="border border-slate-600 ...">City</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-slate-700 ...">Indiana</td>
+            <td class="border border-slate-700 ...">Indianapolis</td>
+          </tr>
+          <tr>
+            <td class="border border-slate-700 ...">Ohio</td>
+            <td class="border border-slate-700 ...">Columbus</td>
+          </tr>
+          <tr>
+            <td class="border border-slate-700 ...">Michigan</td>
+            <td class="border border-slate-700 ...">Detroit</td>
+          </tr>
+        </tbody>
+      </table>
+
+      {/* <h1 className="text-3xl font-bold underline">Hello tailwind</h1>
       <h1>Sign In</h1>
       <input
         placeholder="email"
@@ -44,10 +68,15 @@ const Login = (props) => {
       />
       <br />
       <br />
-      <button onClick={handleLogin}>Login</button>
+      <button
+        onClick={handleLogin}
+        className="dark:md:hover:bg-fuchsia-600 py-3 px-3 "
+      >
+        Login
+      </button>
       <Link to="/register">
         <button>New?</button>
-      </Link>
+      </Link> */}
     </div>
   );
 };

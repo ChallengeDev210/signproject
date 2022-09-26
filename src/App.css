@@ -1,7 +1,7 @@
 .div {
   background-color: rgb(211, 141, 141);
-  text-align: center;
-  margin: 15% 40% auto 40%;
+  /* text-align: center; */
+  margin: 15% 20% auto 20%;
   padding: 20px;
   border-radius: 20px;
 }
